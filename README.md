@@ -32,13 +32,13 @@ To develop a responsive and intelligent chatbot that:
 
 ## 📐 Architecture Overview
 
-Frontend (React + Tailwind)
-|
-|---> Axios Requests
-|
-Backend (Flask + SQLAlchemy)
-|
-|---> SQLite DB (120 Mock Products)
+- Frontend (React + Tailwind)
+- |
+- |---> Axios Requests
+- |
+- Backend (Flask + SQLAlchemy)
+- |
+- |---> SQLite DB (120 Mock Products)
 
 
 - **Frontend:** React with Tailwind CSS & Toastify  
@@ -106,47 +106,45 @@ npm start                      # Starts dev server on http://localhost:3000
 ```
 
 ## 📦 Mock Data Generation
-Generated using Faker in seed_products.py:
 
-120 diverse products across Electronics, Books, and Textiles
-
-Rich descriptions, pricing, categories, image URLs
-
-Automatically clears and resets the product DB
+- Generated using Faker in seed_products.py:
+- 120 diverse products across Electronics, Books, and Textiles
+- Rich descriptions, pricing, categories, image URLs
+- Automatically clears and resets the product DB
 
 ## 📊 Sample Queries
-i.) Query	Response
-ii.) show me laptops	Top 3 matching laptops
-iii.) recommend something	3 randomly selected products
-iv.) suggest me a good book	Book recommendations
-reset	Clears chat and triggers feedback prompt
-🎙️ Voice: "t shirt under 500"	Auto-filled via mic, responds like text query
+- i.) Query	Response
+- ii.) show me laptops	Top 3 matching laptops
+- iii.) recommend something	3 randomly selected products
+- iv.) suggest me a good book	Book recommendations
+- reset	Clears chat and triggers feedback prompt
+- 🎙️ Voice: "t shirt under 500"	Auto-filled via mic, responds like text query
 
 ## 📖 Technical Documentation
 ### 🔧 Backend
-Framework: Flask with blueprints and modular routes
-Auth: JWT-based token management
-Models: User, Product, ChatLog, Feedback
-Routes: /auth, /products, /chat (history, log, feedback, recommendations)
+- Framework: Flask with blueprints and modular routes
+- Auth: JWT-based token management
+- Models: User, Product, ChatLog, Feedback
+- Routes: /auth, /products, /chat (history, log, feedback, recommendations)
 
 ### 💻 Frontend
-Routing: React Router for login/register/chat
-State: Context API for auth
-Voice Input: Web Speech API with toggle logic
-Styling: Tailwind with responsive utility classes
+- Routing: React Router for login/register/chat
+- State: Context API for auth
+- Voice Input: Web Speech API with toggle logic
+- Styling: Tailwind with responsive utility classes
 
 ## 🧠 Challenges Faced & Solutions
-Challenge	Solution
-CORS issues during frontend/backend	Used flask-cors with allow-origin setup
-Tailwind not working with CRA	Downgraded to tailwindcss@3.3.5
-Speech API flaky behavior	Global toggle logic + fallback handling
-Stuck chat scroll	Added auto-scroll using useRef()
-Clean auth flow	Context API + token header injection in Axios
+- Challenge	Solution
+- CORS issues during frontend/backend	Used flask-cors with allow-origin setup
+- Tailwind not working with CRA	Downgraded to tailwindcss@3.3.5
+- Speech API flaky behavior	Global toggle logic + fallback handling
+- Stuck chat scroll	Added auto-scroll using useRef()
+- Clean auth flow	Context API + token header injection in Axios
 
 ## 🧾 Deliverables
-✅ Source Code Repository
-✅ README.md with complete project setup + summary
-✅ seed_products.py for database seeding
-✅ Fully modular backend + frontend code
-✅ All bonus features implemented
-✅ Ready for GitHub Pages (frontend) or Railway (backend) deployment
+- ✅ Source Code Repository
+- ✅ README.md with complete project setup + summary
+- ✅ seed_products.py for database seeding
+- ✅ Fully modular backend + frontend code
+- ✅ All bonus features implemented
+- ✅ Ready for GitHub Pages (frontend) or Railway (backend) deployment
