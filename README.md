@@ -1,7 +1,3 @@
-Here is your **professionally crafted `README.md`** file for the Uplyft Chatbot Project, structured to meet and exceed the evaluation requirements from the case study PDF, and including all essential + bonus features.
-
----
-
 ```markdown
 # 🛒 Uplyft E-Commerce Chatbot Assistant
 
