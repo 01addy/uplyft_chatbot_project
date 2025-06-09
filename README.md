@@ -32,13 +32,13 @@ To develop a responsive and intelligent chatbot that:
 
 ## 📐 Architecture Overview
 
-- Frontend (React + Tailwind)
-- |
-- |---> Axios Requests
-- |
-- Backend (Flask + SQLAlchemy)
-- |
-- |---> SQLite DB (120 Mock Products)
+Frontend (React + Tailwind)
+|
+|---> Axios Requests
+|
+Backend (Flask + SQLAlchemy)
+|
+|---> SQLite DB (120 Mock Products)
 
 
 - **Frontend:** React with Tailwind CSS & Toastify  
@@ -113,10 +113,10 @@ npm start                      # Starts dev server on http://localhost:3000
 - Automatically clears and resets the product DB
 
 ## 📊 Sample Queries
-- i.) Query	Response
-- ii.) show me laptops	Top 3 matching laptops
-- iii.) recommend something	3 randomly selected products
-- iv.) suggest me a good book	Book recommendations
+- Query	Response
+- show me laptops	Top 3 matching laptops
+- recommend something	3 randomly selected products
+- suggest me a good book	Book recommendations
 - reset	Clears chat and triggers feedback prompt
 - 🎙️ Voice: "t shirt under 500"	Auto-filled via mic, responds like text query
 
