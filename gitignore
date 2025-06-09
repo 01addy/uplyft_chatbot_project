@@ -1,0 +1,19 @@
+@"
+# Frontend
+/node_modules
+/.next
+/out
+/dist
+/.svelte-kit
+/.vuepress
+
+# Backend
+.env
+*.log
+.DS_Store
+.venv
+__pycache__
+
+# System
+Thumbs.db
+"@ > .gitignore

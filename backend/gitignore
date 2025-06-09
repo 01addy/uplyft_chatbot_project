@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE configs
+.vscode/
+.idea/
+
+# SQLite DB (if not needed in repo)
+*.sqlite3
+*.db
+
+# Log files
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
